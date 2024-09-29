@@ -11,9 +11,13 @@ function doubleIt(num) {
     return num * num;
 }
 const result = numbers.map(doubleIt);
-console.log(result)
+// console.log(result)
 
 // system-3
 const doubled2 = numbers.map(num => num * num);
 // console.log(doubled2);
+// system-4
+const double3 = x => x * x;
+const result2=numbers.map(double3);
+console.log(result2)
 
